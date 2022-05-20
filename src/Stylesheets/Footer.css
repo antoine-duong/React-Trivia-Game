@@ -1,0 +1,66 @@
+body {
+  min-height: 100vh;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.individualContainer {
+  width: 250px;
+  padding: 0 25px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.individualContainer p {
+  width: 75px;
+}
+
+.individualContainer a {
+  padding: 0 25px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.infoContainer p {
+  width: 400px;
+}
+
+.infoContainer a {
+  text-decoration: none;
+  color: black;
+}
+
+.infoContainer a:hover,
+.individualContainer i:hover,
+.infoContainer a:focus,
+.individualContainer i:focus {
+  color: #FFB0C6;
+  transition: 0.5s;
+}
+
+footer {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.1rem;
+  background-color: #AFEDFF;
+  padding: 25px 0;
+}
+
+.individualContainer i {
+  font-size: 1.5rem;
+  color: black;
+}
+
+
